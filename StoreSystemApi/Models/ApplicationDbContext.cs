@@ -122,6 +122,10 @@ namespace StoreSystemApi.Models
                 .HasColumnType("decimal(19, 4)");
 
             builder.Entity<Purchase>()
+                .Property(p => p.Cash)
+                .HasColumnType("decimal(19, 4)");
+
+            builder.Entity<Purchase>()
                 .Property(p => p.TaxRate)
                 .HasColumnType("decimal(19, 4)");
 

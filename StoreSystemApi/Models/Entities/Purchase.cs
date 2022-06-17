@@ -6,6 +6,7 @@ namespace StoreSystemApi.Models.Entities
     public class Purchase : Entity
     {
         public decimal Total { get; set; }
+        public decimal? Cash { get; set; } // only for PurchaseType == CASH
         public DateTime PurchaseDate { get; set; }
         public string? PurchaseType { get; set; }
         public decimal? TaxRate { get; set; }
