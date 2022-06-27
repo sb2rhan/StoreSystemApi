@@ -2,7 +2,7 @@
 
 **Do not forget to create appsettings.json file in StoreSystemApi folder**
 and paste here:
-``
+```
 {
   "Logging": {
     "LogLevel": {
@@ -21,4 +21,4 @@ and paste here:
     "Secret": "<any secret>"
   }
 }
-``
+```
